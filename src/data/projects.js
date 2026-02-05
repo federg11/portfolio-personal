@@ -6,9 +6,9 @@ const Projects = [
     {
         id: 1,
         image: projectImg1,
-        title: 'Proyecto - Breaking Bad',
-        description: "Frases aleatorias de Breaking Bad",
-        repo: "https://github.com/federg11/breakingbad-frases.git",
+        title: 'Proyecto - Ecommerce',
+        description: "Ecommerce de productos de tecnología",
+        repo: "https://github.com/federg11/ecommerce.git",
         link: "https://bkb-frases.netlify.app/"
     },
     {

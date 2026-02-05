@@ -7,7 +7,7 @@ const ProjectCard = ({ image, title, description, repo, link }) => {
 
         <div className="col-md-4 col-xs-12 col-sm-12">
             <div className="card">
-                <img src={image} className="card-img-top" alt="Card 1" />
+                <img src={image} className="img-fluid" alt="Card 1" />
                 <div className="card-text-overlay">
                     <div className="d-flex flex-column">
                         <h5>{title}</h5>

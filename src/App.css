@@ -531,10 +531,16 @@ body {
     position: relative;
     overflow: hidden;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card img {
     transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card:hover img {
