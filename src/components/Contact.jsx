@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form"
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
+import { toast } from 'react-hot-toast';
 //import Swal from 'sweetalert2';
 
 
@@ -27,10 +28,10 @@ const Contact = () => {
         })
         .then(
           (result) => {
-            console.log('SUCCESS!', result.text);
+            toast.success('Mensaje enviado correctamente!');
           },
           (error) => {
-            console.log('FAILED...', error.text);
+            console.error('Error al enviar el mensaje');
           },
         ); 
         reset();

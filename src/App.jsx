@@ -6,12 +6,14 @@ import NavBar from './components/NavBar'
 import ProjectsSection from './components/ProjectsSection'
 import Skill from './components/Skill'
 import About from './components/About'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
  
 
   return (
     <>
+    <Toaster />
       <NavBar />
       <HeroSection />
       <About />
