@@ -22,8 +22,10 @@ const Projects = [
     {
         id: 3,
         image: projectImg3,
-        title: 'Proyecto 3',
-        description: "Some quick example text to build on the card title and make up the bulk of the card's content" 
+        title: 'Lista de Tareas',
+        description: "Aplicación de lista de tareas con React y Tailwind CSS",
+        repo: "https://github.com/federg11/todo-list-react",
+        link: "https://todo-list-react-fg.netlify.app/"
     },
     
     
