@@ -24,8 +24,8 @@ const Projects = [
         image: projectImg3,
         title: 'Lista de Tareas',
         description: "Aplicación de lista de tareas con React y Tailwind CSS",
-        repo: "https://github.com/federg11/todo-list-react",
-        link: "https://todo-list-react-fg.netlify.app/"
+        repo: "https://github.com/federg11/todolist.git",
+        link: "https://listas-tarea.netlify.app/"
     },
     
     
