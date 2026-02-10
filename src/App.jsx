@@ -7,6 +7,7 @@ import ProjectsSection from './components/ProjectsSection'
 import Skill from './components/Skill'
 import About from './components/About'
 import { Toaster } from 'react-hot-toast'
+import WhatsAppButton from './components/WhatsAppButton'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Skill />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }
