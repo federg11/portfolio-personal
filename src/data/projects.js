@@ -1,6 +1,7 @@
 import projectImg1 from '../assets/imagenes/proyecto1.png';
 import projectImg2 from '../assets/imagenes/proyecto2.png';
 import projectImg3 from '../assets/imagenes/proyecto3.png';
+import projectImg4 from '../assets/imagenes/proyecto4.png';
 
 const Projects = [
     {
@@ -27,6 +28,14 @@ const Projects = [
         repo: "https://github.com/federg11/todolist.git",
         link: "https://listas-tarea.netlify.app/"
     },
+    {
+        id: 4,
+        image: projectImg4,
+        title: 'López Ríos & Asociados',
+        description: "Página web realizada para estudio contable",
+        repo: "https://github.com/federg11/LR-page",
+        link: "https://lopezriossa.netlify.app/"
+    }
     
     
 
