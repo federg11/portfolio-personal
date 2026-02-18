@@ -10,7 +10,7 @@ const Projects = [
         title: 'Proyecto - Ecommerce',
         description: "Ecommerce de productos de tecnología",
         repo: "https://github.com/federg11/ecommerce.git",
-        link: "https://bkb-frases.netlify.app/"
+        link: "https://tech-insumos.vercel.app/"
     },
     {
         id: 2,
